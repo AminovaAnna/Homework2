@@ -50,6 +50,17 @@ public class Main {
         weightDifference = weightSecondBoxer % weightFirstBoxer;
         System.out.println(weightDifference); //задача 7
 
+        var workHoursGeneral = 640;
+        var workHoursPersonality = 8;
+        var workPeople = workHoursGeneral / workHoursPersonality;
+        System.out.println("Всего работников в команде " + workPeople + " человек"); //задача 8.1
+
+        workPeople = workPeople + 94;
+        workHoursGeneral = workPeople * workHoursPersonality;
+        System.out.println("Если в компании работает " + workPeople + " человек, то всего " + workHoursGeneral + " часов работы может быть поделено между сотрудниками"); //задача 8.2
+
+
+
 
 
 
